@@ -8,3 +8,18 @@ services:
     volumes:
       - ./:/var/www/html
     command: php -S 0.0.0.0:80 -t .
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: mdp
+      MYSQL_DATABASE: racoin
+    ports:
+      - "3306:3306"
+  
+  adminer:
+    image: adminer
+    ports:
+      - "5555:8080"
+
+
