@@ -13,7 +13,7 @@
 ## Deuxième étape - La prise en main
 - [x] Faire marcher l'application
 - [x] Créer un mode d'emploi pour faire marcher l'application (un docker-compose par exemple ?)
-- [ ] Trouver les dépendances non maintenu
+- [x] Trouver les dépendances non maintenu
 
 ### Faire marcher l'application
 - J'ai d'abord rajouté un service de base de données dans le docker compose.
@@ -50,7 +50,3 @@ collation=utf8_unicode_ci
 - [ ] Pour chaque idée, essayer de noter sur 10 le temps de la modification, et l'impact de la modification (2 notes donc)
 
 ### Mettre à jour les dépendances
-
-
-## Quatrième étape - Vous êtes si rapide ?
-- [ ] Faire une liste des améliorations que vous avez faites
